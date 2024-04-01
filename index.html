@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paarth's Responsive Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 6, 38);
+            color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 61);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(159, 159, 242);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 24px 23px 30px;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            align-items: center;
+            margin-bottom: 0;
+        }
+
+        .firstsection>div {
+            width: 70%;
+            
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+            margin-left: 100px;
+        }
+
+        .rightsection {
+            width: 60%;
+        }
+
+        .purple {
+            color: rgb(13, 3, 23);
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(148, 99, 195)
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+       
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Responsive Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="about.html">My Intro </a></li>
+                    
+                    <li><a href="blog.html">Portfolio </a></li>
+                    <li><a href="contact.html">Contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="white">Paarth Khanna</span>
+                <div>and i am a passionate </div>
+                
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="PngItem_44189.png" alt="" height="500px">
+             
+        
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <div> <h3>Download my CV and Contact information </h3></div>
+            
+            <div class="buttons" target="_blank">
+            <a href="cv.txt" ><button style=" height: 60px; width: 120px;">Download CV</button></a>
+            
+            <div style=" float: left; margin-right:100px ; "><a href="contact.txt"><button style=" height: 60px; width: 120px;"> Contact Me</button></a></div>
+            </div>
+            
+        
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Video editor', 'Coder'],
+            typeSpeed: 50,
+
+        });
+    </script>
+    
+</body>
+
+</html>

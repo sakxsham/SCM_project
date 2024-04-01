@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paarth's Responsive Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 6, 38);
+            color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 61);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(159, 159, 242);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+            ;
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+        }
+
+        .rightsection {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(148, 99, 195);
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(148, 99, 195)
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        div.footer {
+            background-color: rgb(93, 93, 138);
+            float: inline-end;
+            margin-bottom: 0;
+            border: 48px;
+            border: #ffffff;
+            border-bottom-style: dashed;
+            scroll-padding-block: ;
+        }
+
+        .contactform {
+            padding: 0 34px;
+            padding-top: 44px;
+
+        }
+
+        .contactform h1 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contactform div {
+            padding: 10px 0;
+        }
+
+        #emailHelp {
+            font-size: 8px;
+            color: rgb(91, 91, 224);
+            margin: 0px 12px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Responsive Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="about.html">My Intro </a></li>
+
+                    <li><a href="blog.html">Portfolio </a></li>
+                    <li><a href="contact.html">Contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main" style="float: left; width: 50%;">
+            <div class="contactform">
+                <h1>Contact me for work/general enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                        Name :-<input type="text" name="" id=""></div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address :-</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">
+                            <p style="font-size: larger;"><h4>**WE'LL NEVER SHARE YOUR CONTACT DETAILS WITH ANYONE ELSE**</h4></p>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone No.:-</label>
+                        <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                       Any Enquiry :-<input type="text"></div>
+            </div>
+            <div class="mb-3 form-check" style="margin: 30px;">
+                <input type="checkbox" class="form-check-input" id="isclient">
+                <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+            </div>
+            <button type="submit" class="btn btn-primary"
+                style="padding: 20px  20px; margin: 40px; align-items: center;">SUBMIT</button>
+            </form>
+           
+        </div>
+        <div style="float: right; margin-right: 200px; margin-top: 73px;"> <img src="pngegg (2).png" alt="" width="400px" height="500px"></div>
+        </div>
+
+
+
+</body>
+
+</html>
